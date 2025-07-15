@@ -90,3 +90,18 @@ Se a branch ainda não foi mesclada e você quiser forçar a exclusão:
 ```bash
 git branch -D nome-da-branch
 ```
+
+## 8. Utilizando Tags
+
+Comando para criar as tags e manter uma versõa estável
+
+```bash
+git tag a- v1.0 -m "Versão 1.0"
+```
+
+Para subir a tag para o github
+
+```bash
+git push origin v1.0
+```
+
