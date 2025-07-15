@@ -55,3 +55,38 @@ Para enviar a nova branch para o GitHub:
 ```bash
 git push origin nome-da-branch
 ```
+
+## 🔁 5. Criar um Pull Request (PR)
+
+Depois de criar uma branch e subir para o GitHub, siga os passos abaixo para abrir um **Pull Request**:
+
+1. Acesse o repositório no GitHub.
+2. Clique em **"Compare & pull request"** (isso aparece automaticamente quando você sobe uma branch nova).
+3. Escreva um título e uma descrição explicando as mudanças feitas.
+4. Clique em **"Create pull request"**.
+
+
+## 🔀 6. Fazer Merge de uma Branch
+
+Após abrir o **pull request** e ele for aprovado (ou se estiver trabalhando sozinho):
+
+1. No GitHub, vá até a aba **"Pull requests"**.
+2. Selecione o PR aberto.
+3. Clique em **"Merge pull request"**.
+4. Confirme clicando em **"Confirm merge"**.
+5. (Opcional) Delete a branch clicando em **"Delete branch"**.
+
+
+## 🧼 7. Excluir uma Branch Localmente
+
+Após fazer o merge, você pode excluir a branch localmente com:
+
+```bash
+git branch -d nome-da-branch
+```
+
+Se a branch ainda não foi mesclada e você quiser forçar a exclusão:
+
+```bash
+git branch -D nome-da-branch
+```
