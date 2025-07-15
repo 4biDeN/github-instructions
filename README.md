@@ -90,8 +90,3 @@ Se a branch ainda não foi mesclada e você quiser forçar a exclusão:
 ```bash
 git branch -D nome-da-branch
 ```
-
-
-## Stats 📊
-
-![Cristian J Müller GitHub stats](https://github-readme-stats.vercel.app/api?username=4biDeN&show_icons=true&theme=radical) ![Cristian J Müller GitHub stats](https://github-readme-stats.vercel.app/api/top-langs/?username=4biDeN&layout=compact&langs_count=5&theme-dracula)
