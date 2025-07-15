@@ -2,11 +2,18 @@
 
 ## Manual de como ir criando o repositório.
 
-1. Criar o a pasta no PC e o repositório no GitHub, com o repo criado será seguido os passos abaixo
+1. Criar o a pasta no PC e o repositório no GitHub, com o repo criado será seguido os passos abaixo:
+    git init
+    git add .
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin git@github.com:4biDeN/github-instructions.git
+    git push -u origin main
 
-1.1 git init
-1.2 git add .
-1.3 git commit -m "first commit"
-1.4 git branch -M main
-1.5 git remote add origin git@github.com:4biDeN/github-instructions.git
-1.6 git push -u origin main
+2. git clone serve para clonar um repositório
+
+3. Processo para comitar alterações, será feito sguindo os seguintes passos:
+    git add .
+    git commit -m "comentário"
+    git push origin main
+
