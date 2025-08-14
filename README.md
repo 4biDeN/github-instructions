@@ -105,3 +105,9 @@ Para subir a tag para o github
 git push origin v1.0
 ```
 
+## 9. Para atualizar o repositório local com base no repositório no git
+
+```bash
+git fetch
+git pull
+```
